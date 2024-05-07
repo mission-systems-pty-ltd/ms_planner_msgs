@@ -1,0 +1,3 @@
+---
+string name
+geographic_msgs/GeoPoint coordinates

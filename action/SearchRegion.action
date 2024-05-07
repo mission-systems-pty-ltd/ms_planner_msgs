@@ -1,0 +1,6 @@
+RegionOfInterest roi
+---
+geometry_msgs/Point best_point
+float32 score
+---
+float32 coverage

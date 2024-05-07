@@ -1,0 +1,5 @@
+# An existing plan to be updated 
+ms_planner_msgs/Plan plan
+---
+# The updated plan
+ms_planner_msgs/Plan plan
