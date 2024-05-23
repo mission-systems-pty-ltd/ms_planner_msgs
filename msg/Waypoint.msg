@@ -1,14 +1,10 @@
-uint8 POSITION = 1
-uint8 ORIENTATION = 2
-uint8 VELOCITY = 4
-uint8 ACCELERATION = 8
-
-uint8 POSE = 3
-uint8 ALL = 15
+uint8 ALTITUDE_TYPE_FRAME = 0
+uint8 ALTITUDE_TYPE_AGL = 1
+uint8 ALTITUDE_TYPE_NONE = 2
 
 geometry_msgs/Point position
 geometry_msgs/Quaternion orientation
 geometry_msgs/Vector3 velocity
 geometry_msgs/Vector3 acceleration
 bool constraint
-uint8 fields
+uint8 altitude_type
