@@ -8,3 +8,4 @@ geometry_msgs/Vector3 velocity
 geometry_msgs/Vector3 acceleration
 bool constraint
 uint8 altitude_type
+bool has_heading
