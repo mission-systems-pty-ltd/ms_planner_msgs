@@ -5,7 +5,8 @@ uint8 ALTITUDE_TYPE_NONE = 2
 geometry_msgs/Point position
 geometry_msgs/Quaternion orientation
 geometry_msgs/Vector3 velocity
-geometry_msgs/Vector3 acceleration
-bool constraint
-uint8 altitude_type
-bool has_heading
+
+float32 radius 0.0
+float32 incoming_edge_radius -1.0
+uint8 altitude_type 0
+bool has_heading true
