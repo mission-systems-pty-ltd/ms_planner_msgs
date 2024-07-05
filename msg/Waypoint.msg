@@ -10,3 +10,5 @@ float32 radius 0.0
 float32 incoming_edge_radius -1.0
 uint8 altitude_type 0
 bool has_heading true
+
+bool constraint true
