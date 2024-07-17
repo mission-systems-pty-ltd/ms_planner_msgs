@@ -7,8 +7,8 @@ uint8 ALTITUDE_TYPE_AGL = 1
 uint8 ALTITUDE_TYPE_NONE = 2
 
 uint8 HEADING_TYPE_NONE = 0
-uint8 HEADING_TYPE_ORIENTATION = 0
-uint8 HEADING_TYPE_LOOK_AT = 0
+uint8 HEADING_TYPE_ORIENTATION = 1
+uint8 HEADING_TYPE_LOOK_AT = 2
 
 geometry_msgs/Point position
 geometry_msgs/Vector3 velocity
