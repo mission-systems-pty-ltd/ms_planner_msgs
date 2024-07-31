@@ -12,14 +12,12 @@ find_package(geometry_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "msg/PointOfInterest.msg"  
-  "msg/RegionOfInterest.msg"
+  "msg/PointOfInterest.msg"
   "msg/Waypoint.msg"
   "msg/Plan.msg"
   "srv/UpdatePlan.srv"
   "srv/SetPlan.srv"
   "action/SetPlan.action"
-  "action/SearchRegion.action"
   DEPENDENCIES std_msgs geometry_msgs
 )
 

@@ -1,6 +1,7 @@
 uint8 WAYPOINT_TYPE_VIA = 0
 uint8 WAYPOINT_TYPE_ORBIT = 1
 uint8 WAYPOINT_TYPE_RETURN_HOME = 2
+uint8 WAYPOINT_TYPE_LAND = 3
 
 uint8 ALTITUDE_TYPE_FRAME = 0
 uint8 ALTITUDE_TYPE_AGL = 1
@@ -13,7 +14,7 @@ uint8 HEADING_TYPE_LOOK_AT = 2
 geometry_msgs/Point position
 geometry_msgs/Vector3 velocity
 geometry_msgs/Quaternion orientation
-PointOfInterest look_at
+PointOfInterest point_of_interest
 
 uint8 waypoint_type 0
 float32 radius 0.0
