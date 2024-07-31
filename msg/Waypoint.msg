@@ -14,7 +14,7 @@ uint8 HEADING_TYPE_LOOK_AT = 2
 geometry_msgs/Point position
 geometry_msgs/Vector3 velocity
 geometry_msgs/Quaternion orientation
-PointOfInterest point_of_interest
+PointOfInterest look_at
 
 uint8 waypoint_type 0
 float32 radius 0.0
