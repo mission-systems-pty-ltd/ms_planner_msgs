@@ -15,9 +15,10 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PointOfInterest.msg"
   "msg/Waypoint.msg"
   "msg/Plan.msg"
-  "srv/UpdatePlan.srv"
   "srv/SetPlan.srv"
+  "srv/UpdatePlan.srv"
   "action/SetPlan.action"
+  "action/UpdatePlan.action"
   DEPENDENCIES std_msgs geometry_msgs
 )
 

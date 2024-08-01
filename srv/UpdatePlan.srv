@@ -1,6 +1,6 @@
 # An existing plan to be updated 
-ms_planner_msgs/Plan plan
+Plan plan
 ---
 # The updated plan
-ms_planner_msgs/Plan plan
+Plan plan
 uint64[] map_from_request
