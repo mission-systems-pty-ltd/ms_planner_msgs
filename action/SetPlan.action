@@ -1,3 +1,7 @@
 Plan plan
+
+# Optionally append to an existing plan
+bool append false
+bool replace_final_waypoint false
 ---
 ---
