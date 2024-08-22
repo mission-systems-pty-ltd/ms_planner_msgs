@@ -4,3 +4,4 @@ Plan plan
 # The updated plan
 Plan plan
 uint64[] map_from_request
+bool is_request false
